@@ -4,35 +4,128 @@
 
 /* Question 1 */
 
+.logo {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+
+    /* my Answer */
+    text-align: right;
+
+    padding-bottom: 0.5em;
+    color: #fff;
+}
 
 
 /* Question 2 */
 
+ul, a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding: .2em 1em;
 
+    list-style-type:none;
+}
+
+ul li { 
+	display: inline; 
+
+}
+
+ul li a { 
+	text-decoration: none;
+}
 
 /* Question 3 */
 
+ul {
+    transform: rotate(-180deg);
+}
+ul li {
+    transform: rotate(180deg);
 
+}
 
 
 /* Question 4 */
 
-
+a[href="mailto:anything@email.com"] {
+	background-color: #FF0000;
+}
 
 /* Question 5 */
 
+.pad {
+    padding: 1em;
+}
+
+.footer.pad {
+    display: block;
+    background-color: #ff7e47;
+    position: absolute;
+    bottom:0px;
+}
 
 
 /********* LIGHT BLUE CSS & HTML SECTION *********/
 
 /* Question 1 */
 
+.content-wrap {
+    height: 435px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.side-bar.pad {
+
+    display:inline-block;
+    width: 23.81%;
+    position: relative;
+    background-color: #a7e5fd;
+    font-family: 'Open Sans';
+    float: right;
+}
+
+.content-area.pad {
+    display:inline-block;
+    background-color: #8ec31b;
+    width: 70%;
+    position: relative;
+    float: left;
+    padding: 1em;
+}
+
+@media all and (max-width: 1026px) {
+	.side-bar.pad {
+	    background-color: black;
+	}
+}
 
 
 /********* GREEN CSS & HTML SECTION *********/
 
 /* Question 1 */
 
+
+.mybutton {
+    color: #696969;
+    font-size: 30px;
+    padding: 20px;
+    /*text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);*/
+    border-width: 5px;
+    border-color: grey;
+    border-radius: 15px;
+    background: #D3D3D3;
+    box-shadow: 0px -1px 30px rgba(50, 50, 50, 0.75);
+    margin-left: 32px;
+    margin-top: 22px;
+}
 
 
 

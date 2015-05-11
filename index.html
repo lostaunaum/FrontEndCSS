@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- START:12:20pm -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Volusion Coding Quiz</title>
         <meta name="description" content="">
+
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/main.css">
 
         <!-- All CSS anwsers go in this stylesheet -->
         <link rel="stylesheet" href="css/answer-styles.css">
-
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
     </head>
 
     <body>
@@ -20,7 +23,7 @@
         </div>
         <div class="page-wrap pad cf">
             <div class="header pad cf">
-                <a href="#" class="logo">Volusion Quiz</a>
+                <a href="#" class="logo">Marco A. Lostaunau Volusion Quiz</a>
                 <div class="q-box pad">
                     <strong>Please use CSS only for this section of the quiz.</strong>
                     <ol>
@@ -68,7 +71,7 @@
                         <div class="recreate">
                             <!-- Place button recreation code here -->
                             
-
+                            <button class="mybutton">CSS BUTTON</button>
 
                         </div>
 
@@ -80,7 +83,7 @@
                 <div class="footer pad">
                     <div class="q-box pad">
                         <strong>JQuery or Javascript only</strong><br>
-                        <button type="button" id="info-button">Button Text</button>
+                        <button type="button" id="info-button" class="success">Button Text</button>
                         <ol>
                             <li>With JQuery or Javascript replace the text of this button to "Click Me". </li>
                             <li>Add an event to the button to trigger an Alert box</li>
@@ -88,11 +91,13 @@
                         </ol>
 
                         <!-- Place you Javascript or JQuery here -->
-                        <script>
 
+                        <script type='text/javascript'>
+                            $("#info-button").html('Cick Me!');
 
-
-
+                            $( "#info-button" ).click(function() {
+                              alert( "You have been alerted!" );
+                            });
 
                         </script>
 
